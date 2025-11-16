@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <!-- conecta o CSS -->
+    <meta charset="utf-8" />
+    <!--Utilizado para ler os caracteres da pagina-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Ajusta a pagina ao dispositivo utilizado automaticamente, ajusta largura do conteudo para a mesma da tela, define o zoom inicial 1.0 padrão do browser -->
+    <title>Diário - Ordos Mentis</title>
+    <link rel="icon" href="imagens/logo ordos.jpg" />
+  </head>
+
+  <body>
+    <div id="formulario">
+      <form action="" method="post">
+        <div>
+          <label>Data: </label>
+          <input type="date" name="datapost" id="datapost" required />
+        </div>
+        <div>
+          <label>Digite: </label>
+          <div>
+            <textarea id="post" name="post"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+body {
+  background-image: url("imagens/bgordos.jpg");
+  background-size: cover;
+}
+#logindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh; /* Faz com que o elemento pai ocupe toda a altura da tela */
+}
+
+#logindiv,
+#formulario {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+#botoeslog {
+  margin: 5px 0px 5px 0px;
+}
+#post {
+  position: relative;
+  width: 90%;
+  height: 300px;
+
+  padding: 15px; /* espaço interno */
+  border: 2px solid #333; /* borda mais fina e elegante */
+  border-radius: 10px; /* cantos arredondados */
+  font-size: 16px; /* texto confortável */
+  resize: none; /* impede de esticar feio */
+  background: rgba(255, 255, 255, 0.8); /* fundo mais claro */
+  outline: none; /* remove borda azul feia */
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
